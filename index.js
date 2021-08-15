@@ -1,6 +1,6 @@
 let player = {
     name: "Player One",
-    chips: 10
+    chips: 200
 }
 let cards = []
 let sum = 0
@@ -85,7 +85,7 @@ function getInfos(){
 
 function outOfChips(){
     if (player.chips ===0) {
-        player.chips = 10
+        player.chips = 200
         getInfos()
         sumEl.textContent = "Sum: "
         cardsEl.textContent = "Cards: "
